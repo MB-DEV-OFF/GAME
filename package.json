@@ -1,0 +1,24 @@
+{
+  "name": "game-4-images-1-word",
+  "version": "1.0.0",
+  "description": "Jeu 4 Images 1 Mot avec profil utilisateur et niveaux infinis",
+  "main": "public/index.php",
+  "scripts": {
+    "start": "php -S localhost:8000 -t public",
+    "serve": "php -S localhost:8000 -t public"
+  },
+  "keywords": [
+    "game",
+    "4images1word",
+    "php",
+    "mysql",
+    "interactive"
+  ],
+  "author": "Development Team",
+  "license": "MIT",
+  "requirements": {
+    "php": ">=7.4",
+    "mysql": ">=5.7",
+    "extensions": ["mysqli", "curl"]
+  }
+}
